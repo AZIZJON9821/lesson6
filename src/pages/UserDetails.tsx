@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useGetUserByIdQuery, type User } from '../services/api/users';
+import { useGetUserByIdQuery } from '../services/api/users';
 import styled from 'styled-components';
 
 const Container = styled.div`
